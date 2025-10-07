@@ -2,16 +2,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
-    app:cardCornerRadius="12dp"
-    app:cardElevation="6dp"
-    app:cardUseCompatPadding="true">
+    android:layout_margin="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    app:strokeWidth="0dp"
+    app:cardBackgroundColor="#FFF0F5">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="12dp">
+        android:padding="20dp">
 
         <TextView
             android:id="@+id/txtName"
@@ -19,25 +20,35 @@
             android:layout_height="wrap_content"
             android:text="Nombre"
             android:textStyle="bold"
-            android:textSize="16sp" />
+            android:textSize="18sp"
+            android:textColor="#C2185B"
+            android:layout_marginBottom="12dp" />
 
         <TextView
             android:id="@+id/txtVendor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Fabricante" />
+            android:text="Fabricante"
+            android:textSize="14sp"
+            android:textColor="#D81B60"
+            android:layout_marginBottom="6dp" />
 
         <TextView
             android:id="@+id/txtVersion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Versión" />
+            android:text="Versión"
+            android:textSize="14sp"
+            android:textColor="#D81B60"
+            android:layout_marginBottom="6dp" />
 
         <TextView
             android:id="@+id/txtResolution"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Resolución" />
+            android:text="Resolución"
+            android:textSize="14sp"
+            android:textColor="#D81B60" />
 
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView>
